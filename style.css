@@ -1,0 +1,99 @@
+body,
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.body{
+
+width: 770px;
+margin: 0 auto;
+background-color: pink;
+padding: 30px 0;
+}
+.container{
+width: 700px;
+margin: 0 auto;
+}
+header{
+
+width: 700px;
+text-align: center;
+color: white;
+background-color: rgb(86, 209, 199);
+padding: 8px 0;
+margin-bottom: 20px;
+}
+aside{
+display: inline-block;
+width: 200px;
+height: 325px;
+text-align: center;
+padding: 150px 0;
+margin-right: 20px;
+background-color: rgb(62, 158, 150);
+color: white;
+}
+article{
+display: inline-block;
+width: 475px;
+height: 325px;
+vertical-align: top;
+padding-top: 20px ;
+background-color: rgb(240, 126, 145);
+}
+.nav{
+width: 320px;
+margin: 0 auto;
+}
+.nav a{
+border: 1px solid black;
+font-size: 10px;
+padding: 5px;
+display: inline-block;
+margin-right: -5px;
+text-decoration: none;
+color: black;
+background-color: aliceblue;
+}
+.nav a:first-child{
+border-radius: 10px 0 0 10px;
+}
+.nav a:last-child{
+border-radius: 0 10px 10px 0;
+margin-right: 0;
+}
+.nav a:hover{
+background-color: rgb(86, 209, 199);
+color: white;
+}
+.article{
+width: 460px;
+text-align: center;
+padding-top: 105px;
+margin: 0 auto;
+color: white;
+}
+.article h2{
+margin-bottom: 10px;
+}
+.article div{
+
+display: inline-block;
+padding: 42px 32px;
+margin-right: 14px;
+background-color: gray;
+}
+.article div:last-child{
+margin-right: 0;
+}
+
+footer{
+width: 700px;
+text-align: center;
+color: white;
+background-color: rgb(86, 209, 199);
+padding: 8px 0;
+margin-top: 20px;
+}
